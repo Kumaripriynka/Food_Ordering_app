@@ -6,6 +6,8 @@
 ;
 }
 .logo{
+    position: relative;
+    top: 14px;
     width: 100px;
     margin: -74px;
     margin-left: -114px;
@@ -56,4 +58,12 @@ height: 55%;
 .res_container{
     display:flex;
     flex-wrap: wrap;
+}
+.filter-btn{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #6e5f5f;
+    border-radius: 13px;
+    cursor: pointer;
+
 }
